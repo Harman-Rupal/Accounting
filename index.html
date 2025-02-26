@@ -1,0 +1,829 @@
+<html>
+
+<head>
+    <title>zzAccounting</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.counter').each(function () {
+                $(this).prop('Counter', 0).animate({ 
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+        });
+
+    </script>
+
+
+    <script>
+        function myfunction() {
+            alert("you are subcribed!");
+        }
+    </script>
+    <script>
+        function contactus() {
+            alert("Thankyou for contacting us!")
+        }
+    </script>
+    <script>
+        function sent_message() {
+            alert("Thankyou for Consulting us!")
+        }
+    </script>
+
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="parallelogram">
+                <div class="text">
+                    <div class="col-md-12">
+                        <div class="row firstline">
+                            <div class="col-md-4 xyz ">
+                                <span class="d-flex" id=" mail">
+                                    <i class="fa-solid fa-phone-volume fa-shake" id="phone"></i>
+                                    <p class="No">91+7135649752</p>
+                                    <i class="fa-solid fa-paper-plane fa-bounce" id="plane"></i>
+                                    <p class="No1">Accounting@gmail.com</p>
+                                </span>
+
+                            </div>
+                            <div class="col-md-2 icon1 ">
+                                <span class="d-flex ">
+
+                                    <i class="fa-brands fa-facebook fa-fade" id="btnsocial"></i>
+                                    <i class="fa-brands fa-twitter fa-fade" id="btnsocial"></i>
+                                    <i class="fa-brands fa-instagram fa-fade" id="btnsocial"></i>
+                                    <i class="fa-brands fa-linkedin fa-fade" id="btnsocial"></i>
+                                </span>
+                            </div>
+
+                            <div class="col-md-6" id="right-button">
+                                <span class="d-flex" id="enter-login">
+                                    <span>
+                                        <a href="login.html">
+                                    <button class="log-in">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                                        </a>
+                                    </span>
+                                </span>
+                            </div>
+                            </span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row secondline">
+            <div class="col-md-3">
+                <div class="d-flex">
+                    <img src="img/guides.gif" alt="gif" height="70px" width="70px" class="gif1" />
+                    <h3 class="account">Accounting</h3>
+                </div>
+            </div>
+            <div class="col-md-7 TAGS">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="d-flex">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active pe-4 navanimate " id="HOME" aria-current="page"
+                                            href="index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark active pe-4 navanimate" href="about.html">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark active pe-4 navanimate"
+                                            href="services.html">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark active pe-4 navanimate" href="case study.html">CASE
+                                            STUDY</a>
+                                    </li>
+                                    <li class="nav-item"></li>
+                                    <a class="nav-link text-dark active pe-4 navanimate" href="blog.html">BLOG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark active pe-4 navanimate"
+                                            href="Package.html">PACKAGE</a>
+                                    </li>
+                                    <li class="nav-item"></li>
+                                    <a class="nav-link text-dark active pe-4 navanimate" href="Contact.html">CONTACT</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-2" id="search">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row" id="hm1">
+                            <div class=" col-md-12 WGA">
+                                <span class="WGAB">
+                                    <h4>WE BUSINESS GROW </h4>
+                                </span>
+                                <span class="WGAH">
+                                    <h2>We Help Your Businesses<br>Inoovation and GROW</h2>
+                                </span>
+                                <a href=""><button class="btn border-dark text-black  " id="btnbtnvl"
+                                        onclick="contactus()">
+                                        <h3>CONTACT US</h3>
+                                    </button></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row" id="hm2">
+                            <div class=" col-md-12 WGA">
+                                <span class="WGAB">
+                                    <h4>WE SUPPORT BUSINESS </h4>
+                                </span>
+                                <span class="WGAH">
+                                    <h2>The best Business Support</h2>
+                                </span>
+                                <button class="btn border-dark text-black " id="btnbtnvl" onclick="contactus()">
+                                    <h3>CONTACT US</h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" id="hm3">
+                            <div class=" col-md-12 WGA">
+                                <span class="WGAB">
+                                    <h4>WE GIVE ADVICE </h4>
+                                </span>
+                                <span class="WGAH">
+                                    <h2>Expert Financial Advice</h2>
+                                </span>
+                                <button class="btn border-dark text-black " id="btnbtnvl" onclick="contactus()">
+                                    <h3>CONTACT US</h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row aboutcol" id="tt">
+            <div class="col-md-6">
+                <div class="img-transaction">
+                    <img src="img/about.jpg" class="about" alt="about" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h6 class="WELCOME" data-aos="fade-up">WELCOME TO ACCOUNTING</h6>
+                <p class="bestacc">We Are the Best Accounting Agency</p>
+                <div class="row  ">
+                    <div class="col-md-2 imgbgicon1 fa-fade" data-aos="flip-up">
+                        <img src="img/forecast-analytics.png" class="iconsss" height="85px" width="75px" />
+                    </div>
+                    <div class="col-md-10" data-aos="flip-up">
+                        <h4 class="market"> Market Analysis</h4>
+                        <p class="market1">A detailed assessment of your business's target market and the competitive
+                            landscape within a specific industry</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2 imgbgicon1 fa-fade" data-aos="flip-up">
+                        <img src="img/accountant.png" class="iconsss" height="80px" width="80px" />
+
+                    </div>
+                    <div class="col-md-10" data-aos="flip-up">
+                        <h4 class="advisor"> Accounting Advisor</h4>
+                        <p class="advisor1">Provides financial guidance, assists with tax planning, and helps businesses
+                            maintain accurate and compliant financial records</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 imgbgicon fa-fade" data-aos="flip-up">
+                        <img src="img/consultation.png" class="iconsss" height="80px" width="80px" />
+
+                    </div>
+                    <div class="col-md-10" data-aos="flip-up">
+                        <h4 class="general"> General Consultancy</h4>
+                        <p class="general1"> Undertake projects, analyze situations, and provide expert advice to
+                            address various needs.They collect data, develop strategies, propose solutions.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2 imgbgicon fa-fade" data-aos="flip-up">
+                            <img src="img/assessment.png" class="iconsss" height="80px" width="80px" />
+
+                        </div>
+                        <div class="col-md-10" data-aos="flip-up">
+
+                            <h4 class="structure"> Structured Assestment</h4>
+                            <p class="structure1">the incorporation of standardized assessment tools into usual care
+                                practices in order to provide staff with quantitative data on patient outcomes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Accblock">
+            <div class="col-md-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="img/accounting.png" height="65px" width="65px" />
+
+                    </div>
+
+                    <div class="col-md-10">
+                        <h4 class="txt">Accounting</h4>
+                    </div>
+                </div>
+                <p class="Acc">Accounting is the process of recording, classifying and summarizing financial<br>
+                    transactions.</p>
+            </div>
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="img/tax.png" height="65px" width="65px" />
+                    </div>
+                    <div class="col-md-10">
+                        <h4 class="txt">Tax, Compliance &<br> Payroll</h4>
+                    </div>
+                </div>
+                <p class="Acc">adhering to tax laws and regulations by correctly reporting income, expenses.</h>
+            </div>
+            <div class="col-md-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="img/deposit.png" height="65px" width="65px" />
+                    </div>
+                    <div class="col-md-10">
+                        <h4 class="txt">Financial Services</h4>
+                    </div>
+                </div>
+                <p class="Acc">Financial services are the economic services provided by the finance industry, which
+                    encompasses a broad range of businesses</p>
+            </div>
+            <div class="col-md-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="img/budget.png" height="65px" width="65px" />
+                    </div>
+                    <div class="col-md-10">
+                        <h4 class="txt">Growth & Funding Access</h4>
+                    </div>
+                </div>
+                <p class="Acc"> a mutual fund or exchange-traded fund (ETF) that includes companies primed for revenue
+                    or earnings growth</p>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="four col-md-3">
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="counter">50</span>
+                        <p class="exp"> YEARS OF EXPERIENCED</p>
+                    </div>
+                </div>
+                <div class="four col-md-3">
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="counter">8500 </span>
+                        <p class="exp">CASE COMPLETED</p>
+                    </div>
+                </div>
+                <div class="four col-md-3">
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="counter">20</span>
+                        <p class="exp">AWARD WON</p>
+                    </div>
+                </div>
+                <div class="four col-md-3">
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="counter">50</span>
+                        <p class="exp">EXPERT CONSULTANT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowpose1">
+            <div class="row theme">
+                <div class="col-md-12" data-aos="fade-up">
+                    <h6 class="TESTIMONIES">TESTIMONIES</h6>
+                    <h3 class="happy">Happy Clients & Feedbacks</h3>
+                </div>
+            </div>
+
+            <div class="row rowpose2" id="Author">
+
+                <div class="col-md-4 cardpose" data-aos="flip-right" data-aos-duration="2500">
+                    <span id="leftQ1" class="imgpose">
+                        <img src="img/quote-left.png" height="15px" width="15px" />
+                    </span>
+
+                    <div class="card" id="cardcols">
+                        <p class="theory">Founder of Shootorder, a digital marketing company in Hyderabad,Mentoring
+                            Platform, focusing on providing deep mentoring and incubation services </p>
+                        <div class="d-flex">
+                            <img src="img/rajat jain.png" height="100px" width="100px" class="imgcards " />
+                            <span>
+                                <h4 class="Name">Rajat Jain</h4>
+                                <p class="work">Marketing manager</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cardpose" data-aos="flip-right" data-aos-duration="2500">
+                    <span id="leftQ1" class="imgpose">
+                        <img src="img/quote-left.png" height="15px" width="15px" />
+                    </span>
+
+                    <div class="card" id="cardcols">
+                        <p class="theory">A digital marketing author, speaker, and consultant.He blogs about digital
+                            marketing at DigitalDeepak.com and heads digital marketing at Razorpay.com. </p>
+                        <div class="d-flex">
+                            <img src="img/deepak kanakaraju.png" height="100px" width="100px" class="imgcards" />
+                            <span>
+                                <h4 class="Name">Deepak Kanakaraju </h4>
+                                <p class="work">Marketing manager</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cardpose " data-aos="flip-right" data-aos-duration="2500">
+                    <span id="leftQ1" class="imgpose">
+                        <img src="img/quote-left.png" height="15px" width="15px" />
+                    </span>
+
+                    <div class="card" id="cardcols">
+                        <p class="theory">With over 20 years of experience across governance, risk and compliance,
+                            enabling leaders acrosvarious global banks and financial institutions, build efficiencies
+                        </p>
+                        <div class="d-flex">
+                            <img src="img/prateek shah.png" height="100px" width="100px" class="imgcards" />
+                            <span>
+                                <h4 class="Name">Prateek Shah</h4>
+                                <p class="work">Marketing manager</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="row" id="fixfield">
+            <div class="col-md-6 pic1pose" id="bgabout">
+                <img src="img/about-2.jpg" id="photopose" data-aos="zoom-out-right" class="about-2" />
+                <br>
+                <img src="img/about-1.jpg " id="photopose1" data-aos="zoom-out-left" class="about-1" />
+            </div>
+            <div class="col-md-6" data-aos="flip-up">
+                <h6 class="fqs">FAQS</h6>
+                <h2 class="ask">Frequently Asks Questions</h2>
+                <p class="ask-intro">A collection of common questions and answers about a product, service,<br> or topic
+                    Saving customers timeEstablishing trustCreating transparencyReducing<br> customer support costs
+                    Improving website navigation</p>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <div class="d-flex">
+                                <button class="problem-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How to fix a problem? <i class="fa-solid fa-chevron-down" id="downbar"
+                                        style="color: #ffffff;"></i>
+                                </button>
+
+                            </div>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list1">
+                                    <li>Define the Problem.</li>
+                                    <li>How did you discover the problem?</li>
+                                    <li>What will you accomplish if you fix this problem?</li>
+                                    <li>Generate a list of actions required to address the root cause from getting to
+                                        others.</li>
+                                    <li>Evaluate the result</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <div class="d-flex">
+                                <button class="problem-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How you manage your business loan? <i class="fa-solid fa-chevron-down" id="downbar1"
+                                        style="color: #ffffff;"></i>
+                                </button>
+                            </div>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list1">
+                                    <li>Compare your forecasts to actual performance.</li>
+                                    <li>Adjust your forecast. </li>
+                                    <li>Review your cash runway.</li>
+                                    <li>Make a plan and set milestones to bridge that money gap.</li>
+                                    <li>Prepare for positive and negative outcome.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="problem-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How to Grow your Invesment Funds? <i class="fa-solid fa-chevron-down" id="downbar1"
+                                    style="color: #ffffff;"></i>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list1">
+                                    <li>Start with any amount (as low as 500)</li>
+                                    <li>Diversify across multiple stocks and other instruments like debt, gold, etc.
+                                    </li>
+                                    <li>Start automated monthly investments (SIP).</li>
+                                    <li>Invest without requiring to open a DEMAT account.</li>
+                                    <li>Exit Load on Withdrawing money from Mutual Funds.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" data-aos="fade-up">
+                <h6 class="N-B">NEWS & BLOG</h6>
+                <h2 class="blog">Latest news from our blog</h2>
+            </div>
+        </div>
+        <div class="row" id="news" data-aos="zoom-in">
+
+
+            <div class="col-md-4">
+                <a href="blog1.html">
+                    <div class="img-transaction">
+                        <img src="img/image_1.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+
+                </span>
+                <a href="blog1.html" class="linkonline">
+                    <p class="online">Online-versus-offline battle brews as festive season begins.</p>
+                </a>
+            </div>
+
+
+            <div class="col-md-4">
+                <a href="blog2.html">
+                    <div class="img-transaction">
+                        <img src="img/image_2.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+                </span>
+                <a href="blog2.html" class="linkonline">
+                    <p class="online">The science of targeting is the biggest challenge for auto market.<p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="blog3.html">
+                    <div class="img-transaction">
+                        <img src="img/image_3.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+                </span>
+                <a href="blog3.html" class="linkonline">
+                    <p class="online">Amagi expands global footprint with Mexico entry.</p>
+                </a>
+            </div>
+        </div>
+        <div class="row" id="news" data-aos="zoom-in">
+            <div class="col-md-4">
+                <a href="blog4.html">
+                    <div class="img-transaction">
+                        <img src="img/image_6.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+
+                </span>
+                <a href="blog4.html" class="linkonline">
+                    <p class="online">Using behavioral science in a financial-planning practice.</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="blog5.html">
+                    <div class="img-transaction">
+                        <img src="img/image_5.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+                </span>
+                <a href="blog5.html" class="linkonline">
+                    <p class="online">FASB seeks input on hedge accounting ASU<p>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="blog6.html">
+                    <div class="img-transaction">
+                        <img src="img/image_4.jpg" class="image_1" height="300px" width="380px" />
+                    </div>
+                </a>
+                <span class="d-flex">
+                    <h6 class="date">September 12, 2024 ADMIN</h6>
+                    <i class="fa-solid fa-comment comment1"></i>
+                    <p class="three">3</p>
+                </span>
+                <a href="blog6.html" class="linkonline">
+                    <p class="online">Clarification proposed for CPAs’ financial statement preparation engagements.</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row" id="SIGNUP">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4 class="sign-up">Sign Up for Your Free 1st Accounting Consultation</h4>
+            </div>
+            <div class="col-md-6">
+                 <div class="d-flex">
+                    <input type="text" class="form-control" placeholder="Enter email address" />
+                    <span class="d-flex">
+                    <button class="subscribe" onclick="myfunction()"><i class="fa-solid fa-bell fa-shake"></i></button>
+                    </span>
+                </div> 
+
+            </div>
+        </div>
+        <div class="row bg">
+            <div class="col-md-12" data-aos="fade-up">
+                <h6 class="N-B">PRICE & PLANS</h6>
+                <h2 class="blog">Affordable Packages</h2>
+            </div>
+        </div>
+        <div class="row paybills " id="SALES">
+            <div class="col-md-3" data-aos="zoom-in-down">
+                <div class="card" id="cardcols2">
+                    <h5 class="PERSONAL">PERSONAL</h5>
+                    <span class="d-flex" id="fortynine">
+                        <h6 class="dollar">Rs</h6>
+                        <h1 class="fournine">1,499</h1>
+                        <h6 class="pt-5">/month</h6>
+                    </span>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Monthly Bookkeeping</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST / TDS / TCS </p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST calculation</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>TDS calculations</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST monthly return</p>
+                </div>
+                <div>
+                    <a href="Package.html">
+                        <button class="GET bookbills">READ MORE</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-down">
+                <div class="card" id="cardcols2">
+                    <h5 class="PERSONAL">BUSINESS</h5>
+                    <span class="d-flex" id="fortynine">
+                        <h6 class="dollar">Rs</h6>
+                        <h1 class="fournine">2,999</h1>
+                        <h6 class="pt-5">/month</h6>
+                    </span>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Monthly Bookkeeping</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST / TDS / TCS </p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST calculation</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Monthly Review Cal</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Profit & Loss, Balance Sheet</p>
+                </div>
+                <div>
+                    <a href="Package.html">
+                        <button class="GET bookbills">READ MORE</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-down">
+                <div class="card" id="cardcols2">
+                    <h5 class="PERSONAL">ULTIMATE</h5>
+                    <span class="d-flex" id="fortynine">
+                        <h6 class="dollar">Rs</h6>
+                        <h1 class="fournine">4,999</h1>
+                        <h6 class="pt-5">/month</h6>
+                    </span>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Monthly Reconciliations</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>GST calculation</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>TDS quarterly returns</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Management Reports</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Preparation of audit file</p>
+
+                </div>
+                <div>
+                    <a href="Package.html">
+                        <button class="GET bookbills">READ MORE</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-down">
+                <div class="card" id="cardcols2">
+                    <h5 class="PERSONAL">PREMIUM</h5>
+                    <span class="d-flex" id="fortynine">
+                        <h6 class="dollar">Rs</h6>
+                        <h1 class="fournine">9,999</h1>
+                        <h6 class="pt-5">/month</h6>
+                    </span>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Manage payroll</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Prepare & review budgets</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Analyse project profitability
+                    </p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>Track inventory</p>
+                    <p class="value1"> <i class="fa-solid fa-check" id="iconvalue1"></i>P&L, Balance Sheet & 50+ Reports
+                    </p>
+
+                </div>
+                <div>
+                    <a href="Package.html">
+                        <button class="GET bookbills">READ MORE</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="endpage">
+            <div class="col-md-3">
+                <h4 class="endhead">ACCOUNTIG</h4>
+                <h6 class="endtext">A small river named Duden flows by their<br> place and supplies it with the
+                    necessary<br> regelialia</h6>
+                <span data-aos="zoom-in">
+                    <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                </span>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+                <h4 class="endhead">SERVICES</h4>
+                <p class="endtext">Market Analysis</p>
+                <p class="endtext">Account Advisor</p>
+                <p class="endtext">General Consultancy</p>
+                <p class="endtext">Structured Assesment</p>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+                <h4 class="endhead">QUICKLINK</h4>
+
+                <a style="text-decoration: none" href="about.html ">
+                    <p class="endtext" id="lastabout">About us</p>
+                </a>
+
+                <a style="text-decoration: none" href="services.html">
+                    <p class="endtext">Services</p>
+                </a>
+
+                <a style="text-decoration: none" href="Package.html">
+                    <p class="endtext">Package</p>
+                </a>
+                <a style="text-decoration: none" href="Contact.html">
+                    <p class="endtext">Contact</p>
+                </a>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+                <h4 class="endhead">RESOURCES</h4>
+                <p class="endtext">Security</p>
+                <p class="endtext">Global</p>
+                <p class="endtext">Charts</p>
+                <p class="endtext">Privacy</p>
+            </div>
+            <div class="col-md-3" id="freecon">
+                <h4 class="endhead">FREE CONSULTATION</h4>
+                <input type="text" class="form-control" placeholder=" YOUR NAME" id="lastform" /><br>
+                <input type="email" class="form-control" placeholder="YOUR E-MAIL" id="lastform" /><br>
+                <input type="text" class="form-control" placeholder="YOUR SUBJECT" id="lastform" /><br>
+                <textarea placeholder="YOUR MESSAGE" class="form-control" rows="3" id="lastform"></textarea><br>
+                <button class="message1" onclick="sent_message()">SEND A MESSAGE</button><br><br><br>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center active text-decoration-none "><i class="fa fa-arrow-up"></i></a>
+
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
